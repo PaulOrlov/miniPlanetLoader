@@ -57,7 +57,7 @@ export default {
 
       // Get the base URL of the application
       const baseUrl = window.location.origin;
-      const firmwarePath = `${baseUrl}/firmware/miniplanet.ino.bin`;
+      const firmwarePath = `${baseUrl}/miniPlanetLoader/firmware/miniplanet.ino.bin`;
 
       console.log("Firmware URL:", firmwarePath);
 
